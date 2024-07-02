@@ -46,7 +46,7 @@ conn.once('open', async () => {
 
   // Create the Invoice model
   const Invoice = mongoose.model('Invoice', invoiceSchema);
-
+console.log("testing")
   // Invoice data to be seeded (updated to use Date objects for createdAt and paymentDue)
   const invoices = [
     {
