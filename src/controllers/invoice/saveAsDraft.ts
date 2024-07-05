@@ -35,7 +35,7 @@ export const addDraftInvoiceSchema = Joi.object().keys({
   ),
 });
 
-console.log("object")
+
 /**
  * Request handler to add a new invoice as a draft.
  * Validates the request body against the addDraftInvoiceSchema and saves the draft invoice to the database.
@@ -43,6 +43,7 @@ console.log("object")
  * @param {Request} req - The Express request object.
  * @param {Response} res - The Express response object.
  */
+
 const addDraftInvoiceWrapper: RequestHandler = async (req, res) => {
   try {
     const {
