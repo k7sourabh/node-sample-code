@@ -21,7 +21,7 @@ interface HandlerOptions {
     body?: Joi.ObjectSchema;
   };
 }
-
+console.log("object")
 /**
  * Middleware function to handle request validation.
  *
