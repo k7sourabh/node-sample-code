@@ -43,7 +43,6 @@ export const addDraftInvoiceSchema = Joi.object().keys({
  * @param {Request} req - The Express request object.
  * @param {Response} res - The Express response object.
  */
-console.log("object")
 const addDraftInvoiceWrapper: RequestHandler = async (req, res) => {
   try {
     const {
