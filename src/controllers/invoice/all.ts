@@ -10,7 +10,7 @@ import moment from 'moment';
  * @param {Request} req - The Express request object.
  * @param {Response} res - The Express response object.
  */
-console.log("invoices")
+
 
 const allWragger: RequestHandler = async (req, res) => {
   const invoices = await Invoice.find();
